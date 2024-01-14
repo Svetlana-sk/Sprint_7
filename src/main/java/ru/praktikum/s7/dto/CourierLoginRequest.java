@@ -1,15 +1,17 @@
 package ru.praktikum.s7.dto;
 
 public class CourierLoginRequest {
+
     private String login;
     private String password;
 
-    public CourierLoginRequest() {
-    }
 
     public CourierLoginRequest(String login, String password) {
         this.login = login;
         this.password = password;
+
+    }
+    public CourierLoginRequest(){
 
     }
 
@@ -28,4 +30,6 @@ public class CourierLoginRequest {
     public void setPassword(String password) {
         this.password = password;
     }
+
+
 }

@@ -1,21 +1,21 @@
 package ru.praktikum.s7.dto;
 
 public class CourierCreateRequest {
+
     private String login;
     private String password;
     private String firstName;
-
-    public CourierCreateRequest() {
-    }
 
     public CourierCreateRequest(String login, String password, String firstName) {
         this.login = login;
         this.password = password;
         this.firstName = firstName;
     }
+    public CourierCreateRequest(){
 
-    public String getLogin() {
-        return login;
+    }
+
+    public String getLogin() {  return login;
     }
 
     public void setLogin(String login) {
@@ -37,4 +37,5 @@ public class CourierCreateRequest {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
 }
